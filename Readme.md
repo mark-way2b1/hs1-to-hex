@@ -4,7 +4,7 @@ Convert HSL colors to RGB colors in hex format.constructor
 
 ## Install
 ```sh
-npm install --save @mark-way2b1/hsl-to-hex
+npm install --save @markyway/hsl-to-hex
 ```
 
 ## API
