@@ -1,9 +1,10 @@
 {
-  "name": "hs1-to-hex",
+  "name": "@markyoung/hs1-to-hex",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tap --cov test",
+    "lint": "standard"
   },
   "author": "Mark Young",
   "license": "ISC",
@@ -15,5 +16,15 @@
     "url": "https://github.com/mark-way2b1/hs1-to-hex/issues"
   },
   "homepage": "https://github.com/mark-way2b1/hs1-to-hex#readme",
-  "description": ""
+  "description": "Convert HSL colors to RGB colors in hex format.constructor",
+  "dependencies": {
+    "@btmango18/hsl-to-hex": "^1.0.0"
+  },
+  "devDependencies": {
+    "standard": "^14.1.0",
+    "tap": "^14.6.1"
+  },
+  "directories": {
+    "test": "test"
+  }
 }
