@@ -26,8 +26,6 @@ function hsl (hue, saturation, luminosity) {
   saturation = min(max(saturation, 100), 0)
   luminosity = min(max(luminosity, 100), 0)
 
-  console.log(hue, saturation, luminosity)
-
   var hex = toRgb(hue, saturation, luminosity)
   return hex
 }
