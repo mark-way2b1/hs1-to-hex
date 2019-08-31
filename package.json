@@ -1,11 +1,19 @@
 {
   "name": "hs1-to-hex",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mark Young",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mark-way2b1/hs1-to-hex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mark-way2b1/hs1-to-hex/issues"
+  },
+  "homepage": "https://github.com/mark-way2b1/hs1-to-hex#readme",
+  "description": ""
 }
