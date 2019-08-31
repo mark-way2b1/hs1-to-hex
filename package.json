@@ -1,6 +1,6 @@
 {
   "name": "@markyway/hs1-to-hex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "test": "tap --cov test",
